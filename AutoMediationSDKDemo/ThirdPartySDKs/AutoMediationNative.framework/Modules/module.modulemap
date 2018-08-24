@@ -1,0 +1,6 @@
+framework module AutoMediationNative {
+  umbrella header "AutoMediationNative.h"
+
+  export *
+  module * { export * }
+}

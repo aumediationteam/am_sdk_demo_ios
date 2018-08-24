@@ -1,0 +1,6 @@
+framework module AutoMediationFlurryRewardedVideoAdapter {
+  umbrella header "AutoMediationFlurryRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

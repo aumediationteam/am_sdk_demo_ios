@@ -1,0 +1,6 @@
+framework module AutoMediationChartboostRewardedVideoAdapter {
+  umbrella header "AutoMediationChartboostRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

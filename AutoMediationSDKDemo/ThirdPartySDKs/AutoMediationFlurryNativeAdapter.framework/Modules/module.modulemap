@@ -1,0 +1,6 @@
+framework module AutoMediationFlurryNativeAdapter {
+  umbrella header "AutoMediationFlurryNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

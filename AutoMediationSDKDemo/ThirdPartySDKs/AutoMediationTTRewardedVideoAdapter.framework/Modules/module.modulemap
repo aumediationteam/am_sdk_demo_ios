@@ -1,0 +1,6 @@
+framework module AutoMediationTTRewardedVideoAdapter {
+  umbrella header "AutoMediationTTRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}

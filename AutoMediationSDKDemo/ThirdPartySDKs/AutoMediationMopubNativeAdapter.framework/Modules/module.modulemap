@@ -1,0 +1,6 @@
+framework module AutoMediationMopubNativeAdapter {
+  umbrella header "AutoMediationMopubNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

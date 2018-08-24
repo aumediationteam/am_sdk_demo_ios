@@ -1,0 +1,6 @@
+framework module AutoMediationIronSourceRewardedVideoAdapter {
+  umbrella header "AutoMediationIronSourceRewardedVideoAdapter.h"
+
+  export *
+  module * { export * }
+}
