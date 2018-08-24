@@ -36,7 +36,7 @@
 #ifdef DEBUG
     [[AMAPI sharedInstance] startWithAppID:@"a5b7e58d58cc88"/*@"a5b3c9c596c043"*/ appKey:@"64c685c78eb04ced8a26af6b7d28aab8" error:nil];
 #else
-    [[AMAPI sharedInstance] startWithAppID:@"3/agent" appKey:@"3/agent" error:nil];
+    [[AMAPI sharedInstance] startWithAppID:@"a5b7fb3848b812" appKey:@"1c8530c299b33df2a94cadd393dce60e" error:nil];
 #endif
     return YES;
 }

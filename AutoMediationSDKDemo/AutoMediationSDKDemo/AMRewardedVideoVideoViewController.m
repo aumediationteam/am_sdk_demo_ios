@@ -7,11 +7,11 @@
 //
 
 #import "AMRewardedVideoVideoViewController.h"
-#import <AutoMediationSDK/AMAPI.h>
+#import "AMAPI.h"
 #import "MTAutolayoutCategories.h"
-#import <AutoMediationSDK/AMAdManager.h>
-#import <AutoMediationRewardedVideo/AMRewardedVideoDelegate.h>
-#import <AutoMediationRewardedVideo/AMAdManager+RewardedVideo.h>
+#import "AMAdManager.h"
+#import "AMRewardedVideoDelegate.h"
+#import "AMAdManager+RewardedVideo.h"
 
 @interface AMRewardedVideoVideoViewController ()<AMRewardedVideoDelegate>
 @property(nonatomic, readonly) NSString *name;
@@ -34,7 +34,7 @@ NSString *const kUnityAdsPlacementName = @"Unity Ads";
 NSString *const kTTPlacementName = @"TT";
 
 #ifdef DEBUG
-static NSString *const kPlacement0ID = @"3/agent";
+static NSString *const kPlacement0ID = @"b5b7fb88a6a770";
 static NSString *const kInmobiPlacementID = @"b5b7e5ad3ddc1b";
 static NSString *const kMintegralPlacementID = @"b5b7e59e5e04b8";
 static NSString *const kFacebookPlacementID = @"b5b7e59a8a16d3";
@@ -52,23 +52,23 @@ static NSString *const kUnityAdsPlacementID = @"b5b7e5a3ddb2e2";
 static NSString *const kTTPlacementID = @"b5b7e5a759cafa";
 static NSString *const kAllPlacementID = @"b5b7e59940e4b1";
 #else
-static NSString *const kPlacement0ID = @"3/agent";
-static NSString *const kInmobiPlacementID = @"3/agent";
-static NSString *const kMintegralPlacementID = @"3/agent";
-static NSString *const kFacebookPlacementID = @"3/agent";
-static NSString *const kAdMobPlacementID = @"3/agent";
-static NSString *const kApplovinPlacementID = @"3/agent";
-static NSString *const kFlurryPlacementID = @"3/agent";
-static NSString *const kMopubPlacementID = @"3/agent";
-static NSString *const kMopubVideoPlacementID = @"3/agent";
-static NSString *const kTapjoyRVPlacementID = @"3/agent";//to be modified
-static NSString *const kChartboostRVPlacementID = @"3/agent";//to be modified
-static NSString *const kIronsourceRVPlacementID = @"3/agent";//to be modified
-static NSString *const kVungleRVPlacementID = @"3/agent";//to be modified
-static NSString *const kAdcolonyRVPlacementID = @"3/agent";//to be modified
-static NSString *const kUnityAdsPlacementID = @"3/agent";//to be modified
-static NSString *const kAllPlacementID = @"3/agent";
-static NSString *const kTTPlacementID = @"3/agent";
+static NSString *const kPlacement0ID = @"b5b7e5a759cafa";
+static NSString *const kInmobiPlacementID = @"b5b7fb79d7cac2";
+static NSString *const kMintegralPlacementID = @"b5b7fb7cd85522";
+static NSString *const kFacebookPlacementID = @"b5b7fb77e62b98";
+static NSString *const kAdMobPlacementID = @"b5b7fb78c172d5";
+static NSString *const kApplovinPlacementID = @"b5b7fb7bcd44b9";
+static NSString *const kFlurryPlacementID = @"b5b7fb7aa6b812";
+static NSString *const kMopubPlacementID = @"b5b7fb7dc63953";
+static NSString *const kMopubVideoPlacementID = @"b5b7fb7dc63953";
+static NSString *const kTapjoyRVPlacementID = @"b5b7fb7ffaa02a";//to be modified
+static NSString *const kChartboostRVPlacementID = @"b5b7fb7f30a68d";//to be modified
+static NSString *const kIronsourceRVPlacementID = @"b5b7fb84ea75d4";//to be modified
+static NSString *const kVungleRVPlacementID = @"b5b7fb86932a8f";//to be modified
+static NSString *const kAdcolonyRVPlacementID = @"b5b7fb87f857c1";//to be modified
+static NSString *const kUnityAdsPlacementID = @"b5b7fb85b6a71b";//to be modified
+static NSString *const kAllPlacementID = @"b5b7fb76e0a44a";
+static NSString *const kTTPlacementID = @"b5b7fb88a6a770";
 #endif
 @implementation AMRewardedVideoVideoViewController
 -(instancetype) initWithPlacementName:(NSString*)name {
