@@ -1928,11 +1928,7 @@
 					"$(PROJECT_DIR)/ThirdPartySDKs/Tapjoy.embeddedframework",
 					"$(PROJECT_DIR)/ThirdPartySDKs/Mopub/Viewability/MOAT",
 				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-					NATIVE_INTEGRATED,
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = NATIVE_INTEGRATED;
 				INFOPLIST_FILE = AutoMediationSDKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

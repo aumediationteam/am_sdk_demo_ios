@@ -241,24 +241,26 @@ static NSInteger adViewTag = 3333;
 }
     
 -(void) didStartPlayingVideoInAdView:(AMNativeADView*)adView placementID:(NSString*)placementID {
-    NSLog(@"Video start playing in:%@", placementID);
+    NSLog(@"Native Demo: didStartPlayingVideoInAdView:placementID:%@", placementID);
 }
 
 -(void) didEndPlayingVideoInAdView:(AMNativeADView*)adView placementID:(NSString*)placementID {
-    NSLog(@"Video end playing in:%@", placementID);
+    NSLog(@"Native Demo: didEndPlayingVideoInAdView:placementID:%@", placementID);
 }
 
 -(void) didClickNativeAdInAdView:(AMNativeADView*)adView placementID:(NSString*)placementID {
-    NSLog(@"did click native ad with placement id:%@", placementID);
+    NSLog(@"Native Demo: didClickNativeAdInAdView:placementID:%@", placementID);
 }
 
 
 -(void) didShowNativeAdInAdView:(AMNativeADView*)adView placementID:(NSString*)placementID {
+    NSLog(@"Native Demo: didShowNativeAdInAdView:placementID:%@", placementID);
     adView.mainImageView.hidden = [adView isVideoContents];
 }
 
 
 -(void) didFinishLoadingADWithPlacementID:(NSString *)placementID {
+    NSLog(@"Native Demo: didFinishLoadingADWithPlacementID:%@", placementID);
     [_loadingView removeFromSuperview];
     _failureTipsLabel.hidden = YES;
     _reloadADButton.enabled = YES;
@@ -270,10 +272,10 @@ static NSInteger adViewTag = 3333;
 
 
 -(void) didFailToLoadADWithPlacementID:(NSString *)placementID error:(NSError *)error {
+    NSLog(@"Native Demo: didFailToLoadADWithPlacementID:%@ error:%@", placementID, error);
     [_loadingView removeFromSuperview];
     _failureTipsLabel.hidden = NO;
     _reloadADButton.enabled = YES;
-    NSLog(@"Did fail to load ad, error: %@", error);
 }
 #endif
 @end
