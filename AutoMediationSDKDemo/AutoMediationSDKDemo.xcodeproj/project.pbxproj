@@ -1934,6 +1934,7 @@
 					NATIVE_INTEGRATED,
 				);
 				INFOPLIST_FILE = AutoMediationSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1967,6 +1968,7 @@
 					"$(PROJECT_DIR)/ThirdPartySDKs/Mopub/Viewability/MOAT",
 				);
 				INFOPLIST_FILE = AutoMediationSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
