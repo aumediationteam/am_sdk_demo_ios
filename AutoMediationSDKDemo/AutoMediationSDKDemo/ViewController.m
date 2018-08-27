@@ -7,13 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "Utilities.h"
-#import "AMPlacementSettingManager.h"
-#import "AMAPI.h"
+#import <AutoMediationSDK/AMAPI.h>
 #import "AMADShowViewController.h"
-#import "AMVideoView.h"
 #import "AMRewardedVideoVideoViewController.h"
-#import <VungleSDK/VungleSDK.h>
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, readonly) UITableView *tableView;
 @property(nonatomic, readonly) NSArray<NSArray<NSString*>*>* placementNames;

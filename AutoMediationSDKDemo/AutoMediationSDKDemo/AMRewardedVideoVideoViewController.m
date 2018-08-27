@@ -7,11 +7,11 @@
 //
 
 #import "AMRewardedVideoVideoViewController.h"
-#import "AMAPI.h"
+#import <AutoMediationSDK/AMAPI.h>
 #import "MTAutolayoutCategories.h"
-#import "AMAdManager.h"
-#import "AMRewardedVideoDelegate.h"
-#import "AMAdManager+RewardedVideo.h"
+#import <AutoMediationSDK/AMAdManager.h>
+#import <AutoMediationRewardedVideo/AMRewardedVideoDelegate.h>
+#import <AutoMediationRewardedVideo/AMAdManager+RewardedVideo.h>
 
 @interface AMRewardedVideoVideoViewController ()<AMRewardedVideoDelegate>
 @property(nonatomic, readonly) NSString *name;
