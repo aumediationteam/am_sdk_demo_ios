@@ -252,7 +252,6 @@ static NSInteger adViewTag = 3333;
     NSLog(@"Native Demo: didClickNativeAdInAdView:placementID:%@", placementID);
 }
 
-
 -(void) didShowNativeAdInAdView:(AMNativeADView*)adView placementID:(NSString*)placementID {
     NSLog(@"Native Demo: didShowNativeAdInAdView:placementID:%@", placementID);
     adView.mainImageView.hidden = [adView isVideoContents];
