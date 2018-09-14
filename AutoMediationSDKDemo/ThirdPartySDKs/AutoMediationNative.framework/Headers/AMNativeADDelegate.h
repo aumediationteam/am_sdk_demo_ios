@@ -8,7 +8,7 @@
 
 #ifndef AMNativeADDelegate_h
 #define AMNativeADDelegate_h
-#import <AutoMediationSDK/AMAdLoadingDelegate.h>
+#import <AutoMediationSDK/AutoMediationSDK.h>
 @class AMNativeADView;
 @protocol AMNativeADDelegate<AMAdLoadingDelegate>
 -(void) didShowNativeAdInAdView:(AMNativeADView*)adView placementID:(NSString*)placementID;

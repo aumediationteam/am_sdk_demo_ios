@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D3B354E214B98CF0064FBD2 /* AutoMediationSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B354D214B98CF0064FBD2 /* AutoMediationSDK.bundle */; };
 		8D9898AD212EEF2600ABCF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9898AC212EEF2600ABCF60 /* AppDelegate.m */; };
 		8D9898B0212EEF2600ABCF60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9898AF212EEF2600ABCF60 /* ViewController.m */; };
 		8D9898B3212EEF2600ABCF60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9898B1212EEF2600ABCF60 /* Main.storyboard */; };
@@ -266,6 +267,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D3B354D214B98CF0064FBD2 /* AutoMediationSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AutoMediationSDK.bundle; path = ThirdPartySDKs/AutoMediationSDK.bundle; sourceTree = "<group>"; };
 		8D9898A8212EEF2600ABCF60 /* AutoMediationSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMediationSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9898AB212EEF2600ABCF60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D9898AC212EEF2600ABCF60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -809,6 +811,7 @@
 		8D98989F212EEF2600ABCF60 = {
 			isa = PBXGroup;
 			children = (
+				8D3B354D214B98CF0064FBD2 /* AutoMediationSDK.bundle */,
 				8D989928212EF16A00ABCF60 /* TapjoyResources.bundle */,
 				8D989926212EF15C00ABCF60 /* WMAdSDK.bundle */,
 				8D989924212EF14700ABCF60 /* FlurryEmpty.m */,
@@ -1564,6 +1567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3B354E214B98CF0064FBD2 /* AutoMediationSDK.bundle in Resources */,
 				8D989B6C212EF18800ABCF60 /* MPCloseBtn@3x.png in Resources */,
 				8D989B6A212EF18800ABCF60 /* MPPlayBtn@2x.png in Resources */,
 				8D989929212EF16A00ABCF60 /* TapjoyResources.bundle in Resources */,

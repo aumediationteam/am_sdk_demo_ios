@@ -8,7 +8,7 @@
 
 #ifndef AMRewardedVideoDelegate_h
 #define AMRewardedVideoDelegate_h
-#import <AutoMediationSDK/AMAdLoadingDelegate.h>
+#import <AutoMediationSDK/AutoMediationSDK.h>
 @protocol AMRewardedVideoDelegate<AMAdLoadingDelegate>
 -(void) rewardedVideoDidStartPlayingForPlacementID:(NSString*)placementID;
 -(void) rewardedVideoDidEndPlayingForPlacementID:(NSString*)placementID;
