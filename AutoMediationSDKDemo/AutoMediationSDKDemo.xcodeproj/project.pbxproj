@@ -7,6 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1D362D217D774500C5A04F /* AutoMediationGDTNativeAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D362A217D774500C5A04F /* AutoMediationGDTNativeAdapter.framework */; };
+		8D1D362E217D774500C5A04F /* AutoMediationYeahmobiNativeAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D362B217D774500C5A04F /* AutoMediationYeahmobiNativeAdapter.framework */; };
+		8D1D362F217D774500C5A04F /* AutoMediationAppnextNativeAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D362C217D774500C5A04F /* AutoMediationAppnextNativeAdapter.framework */; };
+		8D1D368A217D7D5900C5A04F /* AutoMediationAppnextInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D366A217D7D5300C5A04F /* AutoMediationAppnextInterstitialAdapter.framework */; };
+		8D1D368B217D7D5900C5A04F /* AutoMediationGDTBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D366B217D7D5300C5A04F /* AutoMediationGDTBannerAdapter.framework */; };
+		8D1D368C217D7D5900C5A04F /* AutoMediationFacebookInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D366C217D7D5300C5A04F /* AutoMediationFacebookInterstitialAdapter.framework */; };
+		8D1D368D217D7D5900C5A04F /* AutoMediationOnewayInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D366D217D7D5400C5A04F /* AutoMediationOnewayInterstitialAdapter.framework */; };
+		8D1D368E217D7D5900C5A04F /* AutoMediationAdmobBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D366E217D7D5400C5A04F /* AutoMediationAdmobBannerAdapter.framework */; };
+		8D1D368F217D7D5900C5A04F /* AutoMediationInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D366F217D7D5400C5A04F /* AutoMediationInterstitial.framework */; };
+		8D1D3690217D7D5900C5A04F /* AutoMediationAdmobInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3670217D7D5400C5A04F /* AutoMediationAdmobInterstitialAdapter.framework */; };
+		8D1D3691217D7D5900C5A04F /* AutoMediationTTInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3671217D7D5400C5A04F /* AutoMediationTTInterstitialAdapter.framework */; };
+		8D1D3692217D7D5900C5A04F /* AutoMediationGDTInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3672217D7D5500C5A04F /* AutoMediationGDTInterstitialAdapter.framework */; };
+		8D1D3693217D7D5900C5A04F /* AutoMediationBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3673217D7D5500C5A04F /* AutoMediationBanner.framework */; };
+		8D1D3694217D7D5900C5A04F /* AutoMediationYeahmobiBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3674217D7D5500C5A04F /* AutoMediationYeahmobiBannerAdapter.framework */; };
+		8D1D3695217D7D5900C5A04F /* AutoMediationAppnextBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3675217D7D5500C5A04F /* AutoMediationAppnextBannerAdapter.framework */; };
+		8D1D3696217D7D5900C5A04F /* AutoMediationTTBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3676217D7D5500C5A04F /* AutoMediationTTBannerAdapter.framework */; };
+		8D1D3697217D7D5900C5A04F /* AutoMediationYeahmobiRewardedVideoAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3677217D7D5500C5A04F /* AutoMediationYeahmobiRewardedVideoAdapter.framework */; };
+		8D1D3698217D7D5900C5A04F /* AutoMediationAdColonyInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3678217D7D5500C5A04F /* AutoMediationAdColonyInterstitialAdapter.framework */; };
+		8D1D3699217D7D5900C5A04F /* AutoMediationMopubBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3679217D7D5600C5A04F /* AutoMediationMopubBannerAdapter.framework */; };
+		8D1D369A217D7D5900C5A04F /* AutoMediationFlurryInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D367A217D7D5600C5A04F /* AutoMediationFlurryInterstitialAdapter.framework */; };
+		8D1D369B217D7D5900C5A04F /* AutoMediationTapjoyInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D367B217D7D5600C5A04F /* AutoMediationTapjoyInterstitialAdapter.framework */; };
+		8D1D369C217D7D5900C5A04F /* AutoMediationMopubInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D367C217D7D5600C5A04F /* AutoMediationMopubInterstitialAdapter.framework */; };
+		8D1D369D217D7D5900C5A04F /* AutoMediationYeahmobiInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D367D217D7D5600C5A04F /* AutoMediationYeahmobiInterstitialAdapter.framework */; };
+		8D1D369E217D7D5900C5A04F /* AutoMediationAppnextRewardedVideoAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D367E217D7D5700C5A04F /* AutoMediationAppnextRewardedVideoAdapter.framework */; };
+		8D1D369F217D7D5900C5A04F /* AutoMediationInmobiInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D367F217D7D5700C5A04F /* AutoMediationInmobiInterstitialAdapter.framework */; };
+		8D1D36A0217D7D5900C5A04F /* AutoMediationInmobiBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3680217D7D5700C5A04F /* AutoMediationInmobiBannerAdapter.framework */; };
+		8D1D36A1217D7D5900C5A04F /* AutoMediationMintegralInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3681217D7D5700C5A04F /* AutoMediationMintegralInterstitialAdapter.framework */; };
+		8D1D36A2217D7D5900C5A04F /* AutoMediationChartboostInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3682217D7D5700C5A04F /* AutoMediationChartboostInterstitialAdapter.framework */; };
+		8D1D36A3217D7D5900C5A04F /* AutoMediationIronSourceInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3683217D7D5700C5A04F /* AutoMediationIronSourceInterstitialAdapter.framework */; };
+		8D1D36A4217D7D5900C5A04F /* AutoMediationFlurryBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3684217D7D5800C5A04F /* AutoMediationFlurryBannerAdapter.framework */; };
+		8D1D36A5217D7D5900C5A04F /* AutoMediationApplovinInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3685217D7D5800C5A04F /* AutoMediationApplovinInterstitialAdapter.framework */; };
+		8D1D36A6217D7D5900C5A04F /* AutoMediationApplovinBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3686217D7D5800C5A04F /* AutoMediationApplovinBannerAdapter.framework */; };
+		8D1D36A7217D7D5900C5A04F /* AutoMediationOnewayRewardedVideoAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3687217D7D5800C5A04F /* AutoMediationOnewayRewardedVideoAdapter.framework */; };
+		8D1D36A8217D7D5900C5A04F /* AutoMediationVungleInterstitialAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3688217D7D5800C5A04F /* AutoMediationVungleInterstitialAdapter.framework */; };
+		8D1D36A9217D7D5900C5A04F /* AutoMediationFacebookBannerAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D3689217D7D5900C5A04F /* AutoMediationFacebookBannerAdapter.framework */; };
+		8D1D36E5217D808600C5A04F /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36B7217D808500C5A04F /* libAppnextSDKCore.a */; };
+		8D1D36E6217D808600C5A04F /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36B8217D808500C5A04F /* libAppnextNativeAdsSDK.a */; };
+		8D1D36E7217D808600C5A04F /* libGDTMobSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36C2217D808500C5A04F /* libGDTMobSDK.a */; };
+		8D1D36E8217D808600C5A04F /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36C4217D808500C5A04F /* libAppnextLib.a */; };
+		8D1D36E9217D808600C5A04F /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36DB217D808500C5A04F /* libAppnextSDKCore.a */; };
+		8D1D36EA217D808600C5A04F /* CTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36DC217D808500C5A04F /* CTSDK.framework */; };
+		8D1D36EB217D808600C5A04F /* OnewaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36E2217D808600C5A04F /* OnewaySDK.a */; };
+		8D1D36F0217D80FD00C5A04F /* AMInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D36EE217D80FD00C5A04F /* AMInterstitialViewController.m */; };
+		8D1D36F1217D80FD00C5A04F /* AMBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D36EF217D80FD00C5A04F /* AMBannerViewController.m */; };
+		8D1D36F4217D9AC500C5A04F /* MTGSDKInterstitialVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36F2217D9AC500C5A04F /* MTGSDKInterstitialVideo.framework */; };
+		8D1D36F5217D9AC500C5A04F /* MTGSDKInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1D36F3217D9AC500C5A04F /* MTGSDKInterstitial.framework */; };
 		8D3B354E214B98CF0064FBD2 /* AutoMediationSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B354D214B98CF0064FBD2 /* AutoMediationSDK.bundle */; };
 		8D9898AD212EEF2600ABCF60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9898AC212EEF2600ABCF60 /* AppDelegate.m */; };
 		8D9898B0212EEF2600ABCF60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9898AF212EEF2600ABCF60 /* ViewController.m */; };
@@ -267,6 +313,96 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D1D362A217D774500C5A04F /* AutoMediationGDTNativeAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationGDTNativeAdapter.framework; path = ThirdPartySDKs/AutoMediationGDTNativeAdapter.framework; sourceTree = "<group>"; };
+		8D1D362B217D774500C5A04F /* AutoMediationYeahmobiNativeAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationYeahmobiNativeAdapter.framework; path = ThirdPartySDKs/AutoMediationYeahmobiNativeAdapter.framework; sourceTree = "<group>"; };
+		8D1D362C217D774500C5A04F /* AutoMediationAppnextNativeAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAppnextNativeAdapter.framework; path = ThirdPartySDKs/AutoMediationAppnextNativeAdapter.framework; sourceTree = "<group>"; };
+		8D1D366A217D7D5300C5A04F /* AutoMediationAppnextInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAppnextInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationAppnextInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D366B217D7D5300C5A04F /* AutoMediationGDTBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationGDTBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationGDTBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D366C217D7D5300C5A04F /* AutoMediationFacebookInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationFacebookInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationFacebookInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D366D217D7D5400C5A04F /* AutoMediationOnewayInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationOnewayInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationOnewayInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D366E217D7D5400C5A04F /* AutoMediationAdmobBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAdmobBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationAdmobBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D366F217D7D5400C5A04F /* AutoMediationInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationInterstitial.framework; path = ThirdPartySDKs/AutoMediationInterstitial.framework; sourceTree = "<group>"; };
+		8D1D3670217D7D5400C5A04F /* AutoMediationAdmobInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAdmobInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationAdmobInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3671217D7D5400C5A04F /* AutoMediationTTInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationTTInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationTTInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3672217D7D5500C5A04F /* AutoMediationGDTInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationGDTInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationGDTInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3673217D7D5500C5A04F /* AutoMediationBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationBanner.framework; path = ThirdPartySDKs/AutoMediationBanner.framework; sourceTree = "<group>"; };
+		8D1D3674217D7D5500C5A04F /* AutoMediationYeahmobiBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationYeahmobiBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationYeahmobiBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D3675217D7D5500C5A04F /* AutoMediationAppnextBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAppnextBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationAppnextBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D3676217D7D5500C5A04F /* AutoMediationTTBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationTTBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationTTBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D3677217D7D5500C5A04F /* AutoMediationYeahmobiRewardedVideoAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationYeahmobiRewardedVideoAdapter.framework; path = ThirdPartySDKs/AutoMediationYeahmobiRewardedVideoAdapter.framework; sourceTree = "<group>"; };
+		8D1D3678217D7D5500C5A04F /* AutoMediationAdColonyInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAdColonyInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationAdColonyInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3679217D7D5600C5A04F /* AutoMediationMopubBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationMopubBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationMopubBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D367A217D7D5600C5A04F /* AutoMediationFlurryInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationFlurryInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationFlurryInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D367B217D7D5600C5A04F /* AutoMediationTapjoyInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationTapjoyInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationTapjoyInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D367C217D7D5600C5A04F /* AutoMediationMopubInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationMopubInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationMopubInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D367D217D7D5600C5A04F /* AutoMediationYeahmobiInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationYeahmobiInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationYeahmobiInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D367E217D7D5700C5A04F /* AutoMediationAppnextRewardedVideoAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationAppnextRewardedVideoAdapter.framework; path = ThirdPartySDKs/AutoMediationAppnextRewardedVideoAdapter.framework; sourceTree = "<group>"; };
+		8D1D367F217D7D5700C5A04F /* AutoMediationInmobiInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationInmobiInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationInmobiInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3680217D7D5700C5A04F /* AutoMediationInmobiBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationInmobiBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationInmobiBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D3681217D7D5700C5A04F /* AutoMediationMintegralInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationMintegralInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationMintegralInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3682217D7D5700C5A04F /* AutoMediationChartboostInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationChartboostInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationChartboostInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3683217D7D5700C5A04F /* AutoMediationIronSourceInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationIronSourceInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationIronSourceInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3684217D7D5800C5A04F /* AutoMediationFlurryBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationFlurryBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationFlurryBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D3685217D7D5800C5A04F /* AutoMediationApplovinInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationApplovinInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationApplovinInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3686217D7D5800C5A04F /* AutoMediationApplovinBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationApplovinBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationApplovinBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D3687217D7D5800C5A04F /* AutoMediationOnewayRewardedVideoAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationOnewayRewardedVideoAdapter.framework; path = ThirdPartySDKs/AutoMediationOnewayRewardedVideoAdapter.framework; sourceTree = "<group>"; };
+		8D1D3688217D7D5800C5A04F /* AutoMediationVungleInterstitialAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationVungleInterstitialAdapter.framework; path = ThirdPartySDKs/AutoMediationVungleInterstitialAdapter.framework; sourceTree = "<group>"; };
+		8D1D3689217D7D5900C5A04F /* AutoMediationFacebookBannerAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoMediationFacebookBannerAdapter.framework; path = ThirdPartySDKs/AutoMediationFacebookBannerAdapter.framework; sourceTree = "<group>"; };
+		8D1D36AD217D808500C5A04F /* AppnextAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdConfiguration.h; sourceTree = "<group>"; };
+		8D1D36AE217D808500C5A04F /* AppnextSDKCorePublicDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCorePublicDefs.h; sourceTree = "<group>"; };
+		8D1D36AF217D808500C5A04F /* AppnextAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdData.h; sourceTree = "<group>"; };
+		8D1D36B0217D808500C5A04F /* AppnextAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAd.h; sourceTree = "<group>"; };
+		8D1D36B1217D808500C5A04F /* AppnextSDKCoreApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCoreApi.h; sourceTree = "<group>"; };
+		8D1D36B3217D808500C5A04F /* AppnextNativeAdsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsRequest.h; sourceTree = "<group>"; };
+		8D1D36B4217D808500C5A04F /* AppnextNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAd.h; sourceTree = "<group>"; };
+		8D1D36B5217D808500C5A04F /* AppnextNativeAdsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsSDK.h; sourceTree = "<group>"; };
+		8D1D36B6217D808500C5A04F /* AppnextNativeAdsSDKApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextNativeAdsSDKApi.h; sourceTree = "<group>"; };
+		8D1D36B7217D808500C5A04F /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
+		8D1D36B8217D808500C5A04F /* libAppnextNativeAdsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextNativeAdsSDK.a; sourceTree = "<group>"; };
+		8D1D36BA217D808500C5A04F /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAdView.h; sourceTree = "<group>"; };
+		8D1D36BB217D808500C5A04F /* GDTMobBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobBannerView.h; sourceTree = "<group>"; };
+		8D1D36BC217D808500C5A04F /* GDTNativeAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeAd.h; sourceTree = "<group>"; };
+		8D1D36BD217D808500C5A04F /* GDTSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKConfig.h; sourceTree = "<group>"; };
+		8D1D36BE217D808500C5A04F /* GDTMobInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTMobInterstitial.h; sourceTree = "<group>"; };
+		8D1D36BF217D808500C5A04F /* GDTSplashAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSplashAd.h; sourceTree = "<group>"; };
+		8D1D36C0217D808500C5A04F /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTNativeExpressAd.h; sourceTree = "<group>"; };
+		8D1D36C1217D808500C5A04F /* GDTSDKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTSDKDefines.h; sourceTree = "<group>"; };
+		8D1D36C2217D808500C5A04F /* libGDTMobSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGDTMobSDK.a; sourceTree = "<group>"; };
+		8D1D36C4217D808500C5A04F /* libAppnextLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextLib.a; sourceTree = "<group>"; };
+		8D1D36C7217D808500C5A04F /* AppnextError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextError.h; sourceTree = "<group>"; };
+		8D1D36C8217D808500C5A04F /* AppnextAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdConfiguration.h; sourceTree = "<group>"; };
+		8D1D36C9217D808500C5A04F /* AppnextSDKCorePublicDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCorePublicDefs.h; sourceTree = "<group>"; };
+		8D1D36CA217D808500C5A04F /* AppnextAdData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAdData.h; sourceTree = "<group>"; };
+		8D1D36CB217D808500C5A04F /* AppnextAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextAd.h; sourceTree = "<group>"; };
+		8D1D36CC217D808500C5A04F /* AppnextSDKCoreApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKCoreApi.h; sourceTree = "<group>"; };
+		8D1D36CE217D808500C5A04F /* AppnextRewardedVideoAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextRewardedVideoAdConfiguration.h; sourceTree = "<group>"; };
+		8D1D36CF217D808500C5A04F /* AppnextInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextInterstitialAd.h; sourceTree = "<group>"; };
+		8D1D36D0217D808500C5A04F /* AppnextInterstitialAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextInterstitialAdConfiguration.h; sourceTree = "<group>"; };
+		8D1D36D1217D808500C5A04F /* AppnextLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextLib.h; sourceTree = "<group>"; };
+		8D1D36D2217D808500C5A04F /* AppnextBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextBannerView.h; sourceTree = "<group>"; };
+		8D1D36D3217D808500C5A04F /* BannerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerRequest.h; sourceTree = "<group>"; };
+		8D1D36D4217D808500C5A04F /* AppnextVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextVideoAd.h; sourceTree = "<group>"; };
+		8D1D36D5217D808500C5A04F /* AppnextFullScreenVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextFullScreenVideoAd.h; sourceTree = "<group>"; };
+		8D1D36D6217D808500C5A04F /* AppnextRewardedServerSidePostbackParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextRewardedServerSidePostbackParams.h; sourceTree = "<group>"; };
+		8D1D36D7217D808500C5A04F /* AppnextFullScreenVideoAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextFullScreenVideoAdConfiguration.h; sourceTree = "<group>"; };
+		8D1D36D8217D808500C5A04F /* AppnextSDKApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextSDKApi.h; sourceTree = "<group>"; };
+		8D1D36D9217D808500C5A04F /* AppnextRewardedVideoAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextRewardedVideoAd.h; sourceTree = "<group>"; };
+		8D1D36DA217D808500C5A04F /* AppnextVideoAdConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppnextVideoAdConfiguration.h; sourceTree = "<group>"; };
+		8D1D36DB217D808500C5A04F /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
+		8D1D36DC217D808500C5A04F /* CTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CTSDK.framework; path = ThirdPartySDKs/CTSDK.framework; sourceTree = "<group>"; };
+		8D1D36DE217D808600C5A04F /* OWInterstitialImageAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWInterstitialImageAd.h; sourceTree = "<group>"; };
+		8D1D36DF217D808600C5A04F /* OWUserMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWUserMetaData.h; sourceTree = "<group>"; };
+		8D1D36E0217D808600C5A04F /* OWRewardedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWRewardedAd.h; sourceTree = "<group>"; };
+		8D1D36E1217D808600C5A04F /* OWAdsBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWAdsBase.h; sourceTree = "<group>"; };
+		8D1D36E2217D808600C5A04F /* OnewaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = OnewaySDK.a; sourceTree = "<group>"; };
+		8D1D36E3217D808600C5A04F /* OneWaySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneWaySDK.h; sourceTree = "<group>"; };
+		8D1D36E4217D808600C5A04F /* OWInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWInterstitialAd.h; sourceTree = "<group>"; };
+		8D1D36EC217D80FD00C5A04F /* AMInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMInterstitialViewController.h; sourceTree = "<group>"; };
+		8D1D36ED217D80FD00C5A04F /* AMBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBannerViewController.h; sourceTree = "<group>"; };
+		8D1D36EE217D80FD00C5A04F /* AMInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMInterstitialViewController.m; sourceTree = "<group>"; };
+		8D1D36EF217D80FD00C5A04F /* AMBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBannerViewController.m; sourceTree = "<group>"; };
+		8D1D36F2217D9AC500C5A04F /* MTGSDKInterstitialVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTGSDKInterstitialVideo.framework; path = ThirdPartySDKs/MTGSDKInterstitialVideo.framework; sourceTree = "<group>"; };
+		8D1D36F3217D9AC500C5A04F /* MTGSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MTGSDKInterstitial.framework; path = ThirdPartySDKs/MTGSDKInterstitial.framework; sourceTree = "<group>"; };
 		8D3B354D214B98CF0064FBD2 /* AutoMediationSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AutoMediationSDK.bundle; path = ThirdPartySDKs/AutoMediationSDK.bundle; sourceTree = "<group>"; };
 		8D9898A8212EEF2600ABCF60 /* AutoMediationSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoMediationSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9898AB212EEF2600ABCF60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -753,7 +889,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1D36F4217D9AC500C5A04F /* MTGSDKInterstitialVideo.framework in Frameworks */,
+				8D1D36F5217D9AC500C5A04F /* MTGSDKInterstitial.framework in Frameworks */,
 				8D989BAA212EF29200ABCF60 /* libsqlite3.tbd in Frameworks */,
+				8D1D36E6217D808600C5A04F /* libAppnextNativeAdsSDK.a in Frameworks */,
+				8D1D36EA217D808600C5A04F /* CTSDK.framework in Frameworks */,
 				8D989BA0212EF19400ABCF60 /* libxml2.tbd in Frameworks */,
 				8D989BA8212EF1AC00ABCF60 /* libc++.tbd in Frameworks */,
 				8D989BA6212EF1A500ABCF60 /* libz.tbd in Frameworks */,
@@ -762,45 +902,85 @@
 				8D989923212EF12E00ABCF60 /* Tapjoy.framework in Frameworks */,
 				8D989921212EF12100ABCF60 /* libFlurryAds_1.0.0.a in Frameworks */,
 				8D98991F212EF11700ABCF60 /* libFlurry_9.0.0.a in Frameworks */,
-				8D9898F6212EF10900ABCF60 /* AutoMediationFlurryNativeAdapter.framework in Frameworks */,
-				8D9898F7212EF10900ABCF60 /* AutoMediationInmobiNativeAdapter.framework in Frameworks */,
-				8D9898F8212EF10900ABCF60 /* AutoMediationMintegralRewardedVideoAdapter.framework in Frameworks */,
-				8D9898F9212EF10900ABCF60 /* AutoMediationFacebookRewardedVideoAdapter.framework in Frameworks */,
 				8D989B45212EF18800ABCF60 /* libAvid-mopub-3.6.1.a in Frameworks */,
 				8D9898FA212EF10900ABCF60 /* InMobiSDK.framework in Frameworks */,
+				8D1D36E5217D808600C5A04F /* libAppnextSDKCore.a in Frameworks */,
 				8D9898FB212EF10900ABCF60 /* WMAdSDK.framework in Frameworks */,
-				8D9898FC212EF10900ABCF60 /* AutoMediationAdColonyRewardedVideoAdapter.framework in Frameworks */,
-				8D9898FD212EF10900ABCF60 /* AutoMediationChartboostRewardedVideoAdapter.framework in Frameworks */,
-				8D9898FE212EF10900ABCF60 /* AutoMediationUnityAdsRewardedVideoAdapter.framework in Frameworks */,
-				8D9898FF212EF10900ABCF60 /* AutoMediationFlurryRewardedVideoAdapter.framework in Frameworks */,
 				8D989900212EF10900ABCF60 /* FBAudienceNetwork.framework in Frameworks */,
 				8D989901212EF10900ABCF60 /* UMAnalytics.framework in Frameworks */,
-				8D989902212EF10900ABCF60 /* AutoMediationRewardedVideo.framework in Frameworks */,
-				8D989903212EF10900ABCF60 /* AutoMediationMintegralNativeAdapter.framework in Frameworks */,
-				8D989904212EF10900ABCF60 /* AutoMediationIronsourceRewardedVideoAdapter.framework in Frameworks */,
 				8D989905212EF10900ABCF60 /* Chartboost.framework in Frameworks */,
-				8D989906212EF10900ABCF60 /* AutoMediationInmobiRewardedVideoAdapter.framework in Frameworks */,
-				8D989907212EF10900ABCF60 /* AutoMediationMopubRewardedVideoAdapter.framework in Frameworks */,
-				8D989908212EF10900ABCF60 /* AutoMediationSDK.framework in Frameworks */,
-				8D989909212EF10900ABCF60 /* AutoMediationAdmobRewardedVideoAdapter.framework in Frameworks */,
 				8D989B46212EF18800ABCF60 /* MPUBMoatMobileAppKit.framework in Frameworks */,
-				8D98990A212EF10900ABCF60 /* AutoMediationApplovinNativeAdapter.framework in Frameworks */,
 				8D98990B212EF10900ABCF60 /* IronSource.framework in Frameworks */,
 				8D98990C212EF10900ABCF60 /* UMCommon.framework in Frameworks */,
-				8D98990D212EF10900ABCF60 /* AutoMediationMopubNativeAdapter.framework in Frameworks */,
-				8D98990E212EF10900ABCF60 /* AutoMediationTapjoyRewardedVideoAdapter.framework in Frameworks */,
 				8D98990F212EF10900ABCF60 /* GoogleMobileAds.framework in Frameworks */,
 				8D989910212EF10900ABCF60 /* UnityAds.framework in Frameworks */,
 				8D989911212EF10900ABCF60 /* AppLovinSDK.framework in Frameworks */,
 				8D989912212EF10900ABCF60 /* MTGSDK.framework in Frameworks */,
 				8D989913212EF10900ABCF60 /* MTGSDKReward.framework in Frameworks */,
+				8D1D36E9217D808600C5A04F /* libAppnextSDKCore.a in Frameworks */,
 				8D989914212EF10900ABCF60 /* AdColony.framework in Frameworks */,
-				8D989915212EF10900ABCF60 /* AutoMediationTTRewardedVideoAdapter.framework in Frameworks */,
 				8D989916212EF10900ABCF60 /* VungleSDK.framework in Frameworks */,
-				8D989918212EF10900ABCF60 /* AutoMediationApplovinRewardedVideoAdapter.framework in Frameworks */,
+				8D989908212EF10900ABCF60 /* AutoMediationSDK.framework in Frameworks */,
+				8D98991B212EF10900ABCF60 /* AutoMediationNative.framework in Frameworks */,
+				8D1D362D217D774500C5A04F /* AutoMediationGDTNativeAdapter.framework in Frameworks */,
+				8D9898F6212EF10900ABCF60 /* AutoMediationFlurryNativeAdapter.framework in Frameworks */,
+				8D9898F7212EF10900ABCF60 /* AutoMediationInmobiNativeAdapter.framework in Frameworks */,
+				8D989903212EF10900ABCF60 /* AutoMediationMintegralNativeAdapter.framework in Frameworks */,
+				8D98990A212EF10900ABCF60 /* AutoMediationApplovinNativeAdapter.framework in Frameworks */,
+				8D98990D212EF10900ABCF60 /* AutoMediationMopubNativeAdapter.framework in Frameworks */,
 				8D989919212EF10900ABCF60 /* AutoMediationFacebookNativeAdapter.framework in Frameworks */,
 				8D98991A212EF10900ABCF60 /* AutoMediationAdmobNativeAdapter.framework in Frameworks */,
-				8D98991B212EF10900ABCF60 /* AutoMediationNative.framework in Frameworks */,
+				8D1D362E217D774500C5A04F /* AutoMediationYeahmobiNativeAdapter.framework in Frameworks */,
+				8D1D362F217D774500C5A04F /* AutoMediationAppnextNativeAdapter.framework in Frameworks */,
+				8D1D3693217D7D5900C5A04F /* AutoMediationBanner.framework in Frameworks */,
+				8D1D368B217D7D5900C5A04F /* AutoMediationGDTBannerAdapter.framework in Frameworks */,
+				8D1D36E7217D808600C5A04F /* libGDTMobSDK.a in Frameworks */,
+				8D1D368E217D7D5900C5A04F /* AutoMediationAdmobBannerAdapter.framework in Frameworks */,
+				8D1D3694217D7D5900C5A04F /* AutoMediationYeahmobiBannerAdapter.framework in Frameworks */,
+				8D1D3695217D7D5900C5A04F /* AutoMediationAppnextBannerAdapter.framework in Frameworks */,
+				8D1D3696217D7D5900C5A04F /* AutoMediationTTBannerAdapter.framework in Frameworks */,
+				8D1D3699217D7D5900C5A04F /* AutoMediationMopubBannerAdapter.framework in Frameworks */,
+				8D1D36A0217D7D5900C5A04F /* AutoMediationInmobiBannerAdapter.framework in Frameworks */,
+				8D1D36A4217D7D5900C5A04F /* AutoMediationFlurryBannerAdapter.framework in Frameworks */,
+				8D1D36A6217D7D5900C5A04F /* AutoMediationApplovinBannerAdapter.framework in Frameworks */,
+				8D1D36A9217D7D5900C5A04F /* AutoMediationFacebookBannerAdapter.framework in Frameworks */,
+				8D1D368F217D7D5900C5A04F /* AutoMediationInterstitial.framework in Frameworks */,
+				8D1D368A217D7D5900C5A04F /* AutoMediationAppnextInterstitialAdapter.framework in Frameworks */,
+				8D1D368C217D7D5900C5A04F /* AutoMediationFacebookInterstitialAdapter.framework in Frameworks */,
+				8D1D368D217D7D5900C5A04F /* AutoMediationOnewayInterstitialAdapter.framework in Frameworks */,
+				8D1D3690217D7D5900C5A04F /* AutoMediationAdmobInterstitialAdapter.framework in Frameworks */,
+				8D1D3691217D7D5900C5A04F /* AutoMediationTTInterstitialAdapter.framework in Frameworks */,
+				8D1D3692217D7D5900C5A04F /* AutoMediationGDTInterstitialAdapter.framework in Frameworks */,
+				8D1D3698217D7D5900C5A04F /* AutoMediationAdColonyInterstitialAdapter.framework in Frameworks */,
+				8D1D369A217D7D5900C5A04F /* AutoMediationFlurryInterstitialAdapter.framework in Frameworks */,
+				8D1D369B217D7D5900C5A04F /* AutoMediationTapjoyInterstitialAdapter.framework in Frameworks */,
+				8D1D369C217D7D5900C5A04F /* AutoMediationMopubInterstitialAdapter.framework in Frameworks */,
+				8D1D369D217D7D5900C5A04F /* AutoMediationYeahmobiInterstitialAdapter.framework in Frameworks */,
+				8D1D36EB217D808600C5A04F /* OnewaySDK.a in Frameworks */,
+				8D1D369F217D7D5900C5A04F /* AutoMediationInmobiInterstitialAdapter.framework in Frameworks */,
+				8D1D36A1217D7D5900C5A04F /* AutoMediationMintegralInterstitialAdapter.framework in Frameworks */,
+				8D1D36A2217D7D5900C5A04F /* AutoMediationChartboostInterstitialAdapter.framework in Frameworks */,
+				8D1D36A3217D7D5900C5A04F /* AutoMediationIronSourceInterstitialAdapter.framework in Frameworks */,
+				8D1D36A5217D7D5900C5A04F /* AutoMediationApplovinInterstitialAdapter.framework in Frameworks */,
+				8D1D36A8217D7D5900C5A04F /* AutoMediationVungleInterstitialAdapter.framework in Frameworks */,
+				8D989902212EF10900ABCF60 /* AutoMediationRewardedVideo.framework in Frameworks */,
+				8D1D3697217D7D5900C5A04F /* AutoMediationYeahmobiRewardedVideoAdapter.framework in Frameworks */,
+				8D1D369E217D7D5900C5A04F /* AutoMediationAppnextRewardedVideoAdapter.framework in Frameworks */,
+				8D1D36A7217D7D5900C5A04F /* AutoMediationOnewayRewardedVideoAdapter.framework in Frameworks */,
+				8D9898F8212EF10900ABCF60 /* AutoMediationMintegralRewardedVideoAdapter.framework in Frameworks */,
+				8D9898F9212EF10900ABCF60 /* AutoMediationFacebookRewardedVideoAdapter.framework in Frameworks */,
+				8D9898FC212EF10900ABCF60 /* AutoMediationAdColonyRewardedVideoAdapter.framework in Frameworks */,
+				8D9898FD212EF10900ABCF60 /* AutoMediationChartboostRewardedVideoAdapter.framework in Frameworks */,
+				8D9898FE212EF10900ABCF60 /* AutoMediationUnityAdsRewardedVideoAdapter.framework in Frameworks */,
+				8D9898FF212EF10900ABCF60 /* AutoMediationFlurryRewardedVideoAdapter.framework in Frameworks */,
+				8D989904212EF10900ABCF60 /* AutoMediationIronsourceRewardedVideoAdapter.framework in Frameworks */,
+				8D989906212EF10900ABCF60 /* AutoMediationInmobiRewardedVideoAdapter.framework in Frameworks */,
+				8D989907212EF10900ABCF60 /* AutoMediationMopubRewardedVideoAdapter.framework in Frameworks */,
+				8D989909212EF10900ABCF60 /* AutoMediationAdmobRewardedVideoAdapter.framework in Frameworks */,
+				8D98990E212EF10900ABCF60 /* AutoMediationTapjoyRewardedVideoAdapter.framework in Frameworks */,
+				8D1D36E8217D808600C5A04F /* libAppnextLib.a in Frameworks */,
+				8D989915212EF10900ABCF60 /* AutoMediationTTRewardedVideoAdapter.framework in Frameworks */,
+				8D989918212EF10900ABCF60 /* AutoMediationApplovinRewardedVideoAdapter.framework in Frameworks */,
 				8D98991D212EF10900ABCF60 /* AutoMediationVungleRewardedVideoAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -808,6 +988,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1D36AA217D808500C5A04F /* AppnextNativeAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36AB217D808500C5A04F /* include */,
+				8D1D36B7217D808500C5A04F /* libAppnextSDKCore.a */,
+				8D1D36B8217D808500C5A04F /* libAppnextNativeAdsSDK.a */,
+			);
+			name = AppnextNativeAdsSDK;
+			path = ThirdPartySDKs/AppnextNativeAdsSDK;
+			sourceTree = "<group>";
+		};
+		8D1D36AB217D808500C5A04F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36AC217D808500C5A04F /* AppnextSDKCore */,
+				8D1D36B2217D808500C5A04F /* AppnextNativeAdsSDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8D1D36AC217D808500C5A04F /* AppnextSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36AD217D808500C5A04F /* AppnextAdConfiguration.h */,
+				8D1D36AE217D808500C5A04F /* AppnextSDKCorePublicDefs.h */,
+				8D1D36AF217D808500C5A04F /* AppnextAdData.h */,
+				8D1D36B0217D808500C5A04F /* AppnextAd.h */,
+				8D1D36B1217D808500C5A04F /* AppnextSDKCoreApi.h */,
+			);
+			path = AppnextSDKCore;
+			sourceTree = "<group>";
+		};
+		8D1D36B2217D808500C5A04F /* AppnextNativeAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36B3217D808500C5A04F /* AppnextNativeAdsRequest.h */,
+				8D1D36B4217D808500C5A04F /* AppnextNativeAd.h */,
+				8D1D36B5217D808500C5A04F /* AppnextNativeAdsSDK.h */,
+				8D1D36B6217D808500C5A04F /* AppnextNativeAdsSDKApi.h */,
+			);
+			path = AppnextNativeAdsSDK;
+			sourceTree = "<group>";
+		};
+		8D1D36B9217D808500C5A04F /* GDT */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36BA217D808500C5A04F /* GDTNativeExpressAdView.h */,
+				8D1D36BB217D808500C5A04F /* GDTMobBannerView.h */,
+				8D1D36BC217D808500C5A04F /* GDTNativeAd.h */,
+				8D1D36BD217D808500C5A04F /* GDTSDKConfig.h */,
+				8D1D36BE217D808500C5A04F /* GDTMobInterstitial.h */,
+				8D1D36BF217D808500C5A04F /* GDTSplashAd.h */,
+				8D1D36C0217D808500C5A04F /* GDTNativeExpressAd.h */,
+				8D1D36C1217D808500C5A04F /* GDTSDKDefines.h */,
+				8D1D36C2217D808500C5A04F /* libGDTMobSDK.a */,
+			);
+			name = GDT;
+			path = ThirdPartySDKs/GDT;
+			sourceTree = "<group>";
+		};
+		8D1D36C3217D808500C5A04F /* AppnextIOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36C4217D808500C5A04F /* libAppnextLib.a */,
+				8D1D36C5217D808500C5A04F /* include */,
+				8D1D36DB217D808500C5A04F /* libAppnextSDKCore.a */,
+			);
+			name = AppnextIOSSDK;
+			path = ThirdPartySDKs/AppnextIOSSDK;
+			sourceTree = "<group>";
+		};
+		8D1D36C5217D808500C5A04F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36C6217D808500C5A04F /* AppnextSDKCore */,
+				8D1D36CD217D808500C5A04F /* AppnextLib */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8D1D36C6217D808500C5A04F /* AppnextSDKCore */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36C7217D808500C5A04F /* AppnextError.h */,
+				8D1D36C8217D808500C5A04F /* AppnextAdConfiguration.h */,
+				8D1D36C9217D808500C5A04F /* AppnextSDKCorePublicDefs.h */,
+				8D1D36CA217D808500C5A04F /* AppnextAdData.h */,
+				8D1D36CB217D808500C5A04F /* AppnextAd.h */,
+				8D1D36CC217D808500C5A04F /* AppnextSDKCoreApi.h */,
+			);
+			path = AppnextSDKCore;
+			sourceTree = "<group>";
+		};
+		8D1D36CD217D808500C5A04F /* AppnextLib */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36CE217D808500C5A04F /* AppnextRewardedVideoAdConfiguration.h */,
+				8D1D36CF217D808500C5A04F /* AppnextInterstitialAd.h */,
+				8D1D36D0217D808500C5A04F /* AppnextInterstitialAdConfiguration.h */,
+				8D1D36D1217D808500C5A04F /* AppnextLib.h */,
+				8D1D36D2217D808500C5A04F /* AppnextBannerView.h */,
+				8D1D36D3217D808500C5A04F /* BannerRequest.h */,
+				8D1D36D4217D808500C5A04F /* AppnextVideoAd.h */,
+				8D1D36D5217D808500C5A04F /* AppnextFullScreenVideoAd.h */,
+				8D1D36D6217D808500C5A04F /* AppnextRewardedServerSidePostbackParams.h */,
+				8D1D36D7217D808500C5A04F /* AppnextFullScreenVideoAdConfiguration.h */,
+				8D1D36D8217D808500C5A04F /* AppnextSDKApi.h */,
+				8D1D36D9217D808500C5A04F /* AppnextRewardedVideoAd.h */,
+				8D1D36DA217D808500C5A04F /* AppnextVideoAdConfiguration.h */,
+			);
+			path = AppnextLib;
+			sourceTree = "<group>";
+		};
+		8D1D36DD217D808600C5A04F /* Oneway */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D36DE217D808600C5A04F /* OWInterstitialImageAd.h */,
+				8D1D36DF217D808600C5A04F /* OWUserMetaData.h */,
+				8D1D36E0217D808600C5A04F /* OWRewardedAd.h */,
+				8D1D36E1217D808600C5A04F /* OWAdsBase.h */,
+				8D1D36E2217D808600C5A04F /* OnewaySDK.a */,
+				8D1D36E3217D808600C5A04F /* OneWaySDK.h */,
+				8D1D36E4217D808600C5A04F /* OWInterstitialAd.h */,
+			);
+			name = Oneway;
+			path = ThirdPartySDKs/Oneway;
+			sourceTree = "<group>";
+		};
 		8D98989F212EEF2600ABCF60 = {
 			isa = PBXGroup;
 			children = (
@@ -835,6 +1143,10 @@
 				8D98992A212EF17100ABCF60 /* Mopub */,
 				8D9898C5212EEFCD00ABCF60 /* AMADShowViewController.h */,
 				8D9898C6212EEFCD00ABCF60 /* AMADShowViewController.m */,
+				8D1D36ED217D80FD00C5A04F /* AMBannerViewController.h */,
+				8D1D36EF217D80FD00C5A04F /* AMBannerViewController.m */,
+				8D1D36EC217D80FD00C5A04F /* AMInterstitialViewController.h */,
+				8D1D36EE217D80FD00C5A04F /* AMInterstitialViewController.m */,
 				8D9898C2212EEFCD00ABCF60 /* AMRewardedVideoVideoViewController.h */,
 				8D9898C1212EEFCC00ABCF60 /* AMRewardedVideoVideoViewController.m */,
 				8D9898C3212EEFCD00ABCF60 /* MTAutolayoutCategories.h */,
@@ -855,6 +1167,43 @@
 		8D9898CA212EF0DD00ABCF60 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D1D36F3217D9AC500C5A04F /* MTGSDKInterstitial.framework */,
+				8D1D36F2217D9AC500C5A04F /* MTGSDKInterstitialVideo.framework */,
+				8D1D3678217D7D5500C5A04F /* AutoMediationAdColonyInterstitialAdapter.framework */,
+				8D1D366E217D7D5400C5A04F /* AutoMediationAdmobBannerAdapter.framework */,
+				8D1D3670217D7D5400C5A04F /* AutoMediationAdmobInterstitialAdapter.framework */,
+				8D1D3686217D7D5800C5A04F /* AutoMediationApplovinBannerAdapter.framework */,
+				8D1D3685217D7D5800C5A04F /* AutoMediationApplovinInterstitialAdapter.framework */,
+				8D1D3675217D7D5500C5A04F /* AutoMediationAppnextBannerAdapter.framework */,
+				8D1D366A217D7D5300C5A04F /* AutoMediationAppnextInterstitialAdapter.framework */,
+				8D1D367E217D7D5700C5A04F /* AutoMediationAppnextRewardedVideoAdapter.framework */,
+				8D1D3673217D7D5500C5A04F /* AutoMediationBanner.framework */,
+				8D1D3682217D7D5700C5A04F /* AutoMediationChartboostInterstitialAdapter.framework */,
+				8D1D3689217D7D5900C5A04F /* AutoMediationFacebookBannerAdapter.framework */,
+				8D1D366C217D7D5300C5A04F /* AutoMediationFacebookInterstitialAdapter.framework */,
+				8D1D3684217D7D5800C5A04F /* AutoMediationFlurryBannerAdapter.framework */,
+				8D1D367A217D7D5600C5A04F /* AutoMediationFlurryInterstitialAdapter.framework */,
+				8D1D366B217D7D5300C5A04F /* AutoMediationGDTBannerAdapter.framework */,
+				8D1D3672217D7D5500C5A04F /* AutoMediationGDTInterstitialAdapter.framework */,
+				8D1D3680217D7D5700C5A04F /* AutoMediationInmobiBannerAdapter.framework */,
+				8D1D367F217D7D5700C5A04F /* AutoMediationInmobiInterstitialAdapter.framework */,
+				8D1D366F217D7D5400C5A04F /* AutoMediationInterstitial.framework */,
+				8D1D3683217D7D5700C5A04F /* AutoMediationIronSourceInterstitialAdapter.framework */,
+				8D1D3681217D7D5700C5A04F /* AutoMediationMintegralInterstitialAdapter.framework */,
+				8D1D3679217D7D5600C5A04F /* AutoMediationMopubBannerAdapter.framework */,
+				8D1D367C217D7D5600C5A04F /* AutoMediationMopubInterstitialAdapter.framework */,
+				8D1D366D217D7D5400C5A04F /* AutoMediationOnewayInterstitialAdapter.framework */,
+				8D1D3687217D7D5800C5A04F /* AutoMediationOnewayRewardedVideoAdapter.framework */,
+				8D1D367B217D7D5600C5A04F /* AutoMediationTapjoyInterstitialAdapter.framework */,
+				8D1D3676217D7D5500C5A04F /* AutoMediationTTBannerAdapter.framework */,
+				8D1D3671217D7D5400C5A04F /* AutoMediationTTInterstitialAdapter.framework */,
+				8D1D3688217D7D5800C5A04F /* AutoMediationVungleInterstitialAdapter.framework */,
+				8D1D3674217D7D5500C5A04F /* AutoMediationYeahmobiBannerAdapter.framework */,
+				8D1D367D217D7D5600C5A04F /* AutoMediationYeahmobiInterstitialAdapter.framework */,
+				8D1D3677217D7D5500C5A04F /* AutoMediationYeahmobiRewardedVideoAdapter.framework */,
+				8D1D362C217D774500C5A04F /* AutoMediationAppnextNativeAdapter.framework */,
+				8D1D362A217D774500C5A04F /* AutoMediationGDTNativeAdapter.framework */,
+				8D1D362B217D774500C5A04F /* AutoMediationYeahmobiNativeAdapter.framework */,
 				8D989BA9212EF29100ABCF60 /* libsqlite3.tbd */,
 				8D989BA7212EF1AC00ABCF60 /* libc++.tbd */,
 				8D989BA5212EF1A500ABCF60 /* libz.tbd */,
@@ -864,6 +1213,11 @@
 				8D989922212EF12E00ABCF60 /* Tapjoy.framework */,
 				8D989920212EF12100ABCF60 /* libFlurryAds_1.0.0.a */,
 				8D98991E212EF11700ABCF60 /* libFlurry_9.0.0.a */,
+				8D1D36C3217D808500C5A04F /* AppnextIOSSDK */,
+				8D1D36AA217D808500C5A04F /* AppnextNativeAdsSDK */,
+				8D1D36DC217D808500C5A04F /* CTSDK.framework */,
+				8D1D36B9217D808500C5A04F /* GDT */,
+				8D1D36DD217D808600C5A04F /* Oneway */,
 				8D9898EC212EF10900ABCF60 /* AdColony.framework */,
 				8D9898E9212EF10900ABCF60 /* AppLovinSDK.framework */,
 				8D9898D4212EF10800ABCF60 /* AutoMediationAdColonyRewardedVideoAdapter.framework */,
@@ -1714,6 +2068,7 @@
 				8D989B09212EF18800ABCF60 /* MPMRAIDBannerCustomEvent.m in Sources */,
 				8D989B00212EF18800ABCF60 /* MPURLResolver.m in Sources */,
 				8D989ADD212EF18800ABCF60 /* MPMoPubConfiguration.m in Sources */,
+				8D1D36F0217D80FD00C5A04F /* AMInterstitialViewController.m in Sources */,
 				8D989B13212EF18800ABCF60 /* MRError.m in Sources */,
 				8D989B65212EF18800ABCF60 /* MPConstants.m in Sources */,
 				8D989AE8212EF18800ABCF60 /* MPWebView.m in Sources */,
@@ -1762,6 +2117,7 @@
 				8D989B86212EF18800ABCF60 /* MPMoPubNativeAdAdapter.m in Sources */,
 				8D989AFB212EF18800ABCF60 /* MPClosableView.m in Sources */,
 				8D989AF7212EF18800ABCF60 /* MPProgressOverlayView.m in Sources */,
+				8D1D36F1217D80FD00C5A04F /* AMBannerViewController.m in Sources */,
 				8D989AF0212EF18800ABCF60 /* MPAPIEndpoints.m in Sources */,
 				8D989B9E212EF18800ABCF60 /* MPClientAdPositioning.m in Sources */,
 				8D989B57212EF18800ABCF60 /* MOPUBNativeVideoCustomEvent.m in Sources */,
@@ -1944,6 +2300,10 @@
 					"$(PROJECT_DIR)/ThirdPartySDKs/Flurry",
 					"$(PROJECT_DIR)/ThirdPartySDKs/FlurryAds",
 					"$(PROJECT_DIR)/ThirdPartySDKs/Mopub/Viewability/Avid",
+					"$(PROJECT_DIR)/ThirdPartySDKs/AppnextNativeAdsSDK",
+					"$(PROJECT_DIR)/ThirdPartySDKs/GDT",
+					"$(PROJECT_DIR)/ThirdPartySDKs/AppnextIOSSDK",
+					"$(PROJECT_DIR)/ThirdPartySDKs/Oneway",
 				);
 				OTHER_LDFLAGS = (
 					"-fobjc-arc",
@@ -1978,6 +2338,10 @@
 					"$(PROJECT_DIR)/ThirdPartySDKs/Flurry",
 					"$(PROJECT_DIR)/ThirdPartySDKs/FlurryAds",
 					"$(PROJECT_DIR)/ThirdPartySDKs/Mopub/Viewability/Avid",
+					"$(PROJECT_DIR)/ThirdPartySDKs/AppnextNativeAdsSDK",
+					"$(PROJECT_DIR)/ThirdPartySDKs/GDT",
+					"$(PROJECT_DIR)/ThirdPartySDKs/AppnextIOSSDK",
+					"$(PROJECT_DIR)/ThirdPartySDKs/Oneway",
 				);
 				OTHER_LDFLAGS = (
 					"-fobjc-arc",

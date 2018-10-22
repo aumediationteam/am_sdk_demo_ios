@@ -21,21 +21,29 @@ NSString *const kFlurryPlacement = @"Flurry";
 NSString *const kMintegralPlacement = @"Mintegral";
 NSString *const kMopubPlacementName = @"Mopub";
 NSString *const kMopubVideoPlacementName = @"Mopub Video Placement";
+NSString *const kGDTPlacement = @"GDT";
+NSString *const kGDTTemplatePlacement = @"GDT(Template)";
+NSString *const kYeahmobiPlacement = @"Yeahmobi";
+NSString *const kAppnextPlacement = @"Appnext";
 NSString *const kAllPlacementName = @"All";
 
 #ifdef DEBUG
-static NSString *const kPlacement0ID = @"b5b7fb88a6a770";
-static NSString *const kInmobiPlacementID = @"b5b7e5943568bd";
-static NSString *const kMintegralPlacementID = @"b5b7e596421178";
-static NSString *const kFacebookPlacementID = @"b5b7e592b0bc4e";
-static NSString *const kAdMobPlacementID = @"b5b7e59363e559";
-static NSString *const kApplovinPlacementID = @"b5b7e5957a4b1c";
-static NSString *const kFlurryPlacementID = @"b5b7e594d3ba0b";
-static NSString *const kMopubPlacementID = @"b5b7e597092d07";
-static NSString *const kMopubVideoPlacementID = @"b5b7e59fd4dece";
-static NSString *const kAllPlacementID = @"b5b7e5916db926";
+static NSString *const kPlacement0ID = @"b5b3c9ce05d849";
+static NSString *const kInmobiPlacementID = @"b5b7ea464ecc07";
+static NSString *const kMintegralPlacementID = @"b5b7ea485828b1";
+static NSString *const kFacebookPlacementID = @"b5b7ea44a6d3ca";
+static NSString *const kAdMobPlacementID = @"b5b7ea456bb0ec";
+static NSString *const kApplovinPlacementID = @"b5b7ea4789562a";
+static NSString *const kFlurryPlacementID = @"b5b7ea4a970252";
+static NSString *const kMopubPlacementID = @"b5b7ea49415238";
+static NSString *const kGDTPlacementID = @"b5bac73f0796e5";
+static NSString *const kGDTTemplatePlacementID = @"b5ba34ee81601a";
+static NSString *const kMopubVideoPlacementID = @"b5bc93f5f47e0e";
+static NSString *const kYeahmobiPlacementID = @"b5bc7ec73074a0";
+static NSString *const kAppnextPlacementID = @"b5bc7ec86f35e7";
+static NSString *const kAllPlacementID = @"b5b7ea43935ea5";
 #else
-static NSString *const kPlacement0ID = @"b5b7e5a759cafa";
+static NSString *const kPlacement0ID = @"b5b7fb70c679a8";
 static NSString *const kInmobiPlacementID = @"b5b7fb71a74213";
 static NSString *const kMintegralPlacementID = @"b5b7fb74400d3a";
 static NSString *const kFacebookPlacementID = @"b5b7fb6feac7bf";
@@ -43,8 +51,12 @@ static NSString *const kAdMobPlacementID = @"b5b7fb70c679a8";
 static NSString *const kApplovinPlacementID = @"b5b7fb72c2aabe";
 static NSString *const kFlurryPlacementID = @"b5b7fb7237ae4b";
 static NSString *const kMopubPlacementID = @"b5b7fb74d1e080";
-static NSString *const kMopubVideoPlacementID = @"b5b7e59fd4dece";
-static NSString *const kAllPlacementID = @"b5b7fb6ebae672";
+static NSString *const kGDTPlacementID = @"b5bacac5f73476";
+static NSString *const kGDTTemplatePlacementID = @"b5bacac780e03b";
+static NSString *const kMopubVideoPlacementID = @"b5bc93f5f47e0e";
+static NSString *const kYeahmobiPlacementID = @"b5bc93f853669e";
+static NSString *const kAppnextPlacementID = @"b5bc93f9493b79";
+static NSString *const kAllPlacementID = @"b5bc93f75e1376";
 #endif
 #ifdef NATIVE_INTEGRATED
 @interface DMADView:AMNativeADView
@@ -148,7 +160,11 @@ static NSString *const kAllPlacementID = @"b5b7fb6ebae672";
                           kMopubPlacementName:kMopubPlacementID,
                           kMopubVideoPlacementName:kMopubVideoPlacementID,
                           kApplovinPlacement:kApplovinPlacementID,
-                          kFlurryPlacement:kFlurryPlacementID
+                          kFlurryPlacement:kFlurryPlacementID,
+                          kGDTPlacement:kGDTPlacementID,
+                          kGDTTemplatePlacement:kGDTTemplatePlacementID,
+                          kYeahmobiPlacement:kYeahmobiPlacementID,
+                          kAppnextPlacement:kAppnextPlacementID
                           };
     }
     return self;
@@ -202,7 +218,7 @@ static NSString *const kAllPlacementID = @"b5b7fb6ebae672";
         _loadingView.center = _failureTipsLabel.center;
         [_loadingView startAnimating];
         [self.view addSubview:_loadingView];
-        [[AMAdManager sharedManager] loadADWithPlacementID:_placementIDs[_name] customData:@{@"network":@"facebook"} delegate:self];
+        [[AMAdManager sharedManager] loadADWithPlacementID:_placementIDs[_name] extra:@{kExtraInfoNativeAdTypeKey:@([@{kGDTPlacement:@(AMGDTNativeAdTypeSelfRendering), kGDTTemplatePlacement:@(AMGDTNativeAdTypeTemplate), kMintegralPlacement:@(AMGDTNativeAdTypeSelfRendering)}[_name] integerValue]), kExtraInfoNativeAdSizeKey:[NSValue valueWithCGSize:CGSizeMake(CGRectGetWidth(self.view.bounds) - 30.0f, 400.0f)]} customData:@{@"network":@"facebook"} delegate:self];
     }
 }
 
@@ -223,7 +239,7 @@ static NSInteger adViewTag = 3333;
     _failureTipsLabel.hidden = YES;
     _reloadADButton.enabled = NO;
     [self.view addSubview:_loadingView];
-    [[AMAdManager sharedManager] loadADWithPlacementID:_placementIDs[_name] customData:nil delegate:self];
+    [[AMAdManager sharedManager] loadADWithPlacementID:_placementIDs[_name] extra:@{kExtraInfoNativeAdTypeKey:@([@{kGDTPlacement:@(AMGDTNativeAdTypeSelfRendering), kGDTTemplatePlacement:@(AMGDTNativeAdTypeTemplate)}[_name] integerValue]), kExtraInfoNativeAdSizeKey:[NSValue valueWithCGSize:CGSizeMake(CGRectGetWidth(self.view.bounds) - 30.0f, 400.0f)]} customData:nil delegate:self];
 }
 
 -(void) showAD {

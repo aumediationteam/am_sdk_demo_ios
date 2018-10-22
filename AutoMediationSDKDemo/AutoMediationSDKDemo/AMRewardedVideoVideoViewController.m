@@ -32,27 +32,31 @@ NSString *const kVunglePlacementName = @"Vungle";
 NSString *const kAdcolonyPlacementName = @"Adcolony";
 NSString *const kUnityAdsPlacementName = @"Unity Ads";
 NSString *const kTTPlacementName = @"TT";
+NSString *const kOnewayPlacementName = @"Oneway";
 
 #ifdef DEBUG
-static NSString *const kPlacement0ID = @"b5b7fb88a6a770";
-static NSString *const kInmobiPlacementID = @"b5b7e5ad3ddc1b";
-static NSString *const kMintegralPlacementID = @"b5b7e59e5e04b8";
-static NSString *const kFacebookPlacementID = @"b5b7e59a8a16d3";
-static NSString *const kAdMobPlacementID = @"b5b7e59b39d94c";
-static NSString *const kApplovinPlacementID = @"b5b7e59d260b59";
-static NSString *const kFlurryPlacementID = @"b5b7e59c39ee37";
-static NSString *const kMopubPlacementID = @"b5b7e59fd4dece";
-static NSString *const kMopubVideoPlacementID = @"b5b7e59fd4dece";
-static NSString *const kTapjoyRVPlacementID = @"b5b7e5a1f9b51e";
-static NSString *const kChartboostRVPlacementID = @"b5b7e5a0dadeef";
-static NSString *const kIronsourceRVPlacementID = @"b5b7e5a31258f5";
-static NSString *const kVungleRVPlacementID = @"b5b7e6bc72d82a";
-static NSString *const kAdcolonyRVPlacementID = @"b5b7e5a4e0ad96";
-static NSString *const kUnityAdsPlacementID = @"b5b7e5a3ddb2e2";
-static NSString *const kTTPlacementID = @"b5b7e5a759cafa";
-static NSString *const kAllPlacementID = @"b5b7e59940e4b1";
+static NSString *const kPlacement0ID = @"b5b3c9ce05d849";
+static NSString *const kInmobiPlacementID = @"b5b403793ef6c5";
+static NSString *const kMintegralPlacementID = @"b5b40377da122e";
+static NSString *const kFacebookPlacementID = @"b5b7ea86c44fc3";
+static NSString *const kAdMobPlacementID = @"b5b40374b43071";
+static NSString *const kApplovinPlacementID = @"b5b40376678dcf";
+static NSString *const kFlurryPlacementID = @"b5b4037886e27d";
+static NSString *const kMopubPlacementID = @"b5b40379d64400";
+static NSString *const kMopubVideoPlacementID = @"b5bc93f5f47e0e";
+static NSString *const kTapjoyRVPlacementID = @"b5b4037fc73984";
+static NSString *const kChartboostRVPlacementID = @"b5b4037ef61d03";
+static NSString *const kIronsourceRVPlacementID = @"b5b4037d86b5b0";
+static NSString *const kVungleRVPlacementID = @"b5b4037cb650c2";
+static NSString *const kAdcolonyRVPlacementID = @"b5b4037bf5ff53";
+static NSString *const kUnityAdsPlacementID = @"b5b4037b242ae4";
+static NSString *const kTTPlacementID = @"b5b7ea145a6bab";
+static NSString *const kOnewayPlacementID = @"b5bc9402156211";
+static NSString *const kYeahmobiPlacementID = @"b5bc7eca17eab7";
+static NSString *const kAppnextPlacementID = @"b5bc7ecad24839";
+static NSString *const kAllPlacementID = @"b5b4022fadb8ed";
 #else
-static NSString *const kPlacement0ID = @"b5b7e5a759cafa";
+static NSString *const kPlacement0ID = @"b5b7fb70c679a8";
 static NSString *const kInmobiPlacementID = @"b5b7fb79d7cac2";
 static NSString *const kMintegralPlacementID = @"b5b7fb7cd85522";
 static NSString *const kFacebookPlacementID = @"b5b7fb77e62b98";
@@ -69,6 +73,9 @@ static NSString *const kAdcolonyRVPlacementID = @"b5b7fb87f857c1";//to be modifi
 static NSString *const kUnityAdsPlacementID = @"b5b7fb85b6a71b";//to be modified
 static NSString *const kAllPlacementID = @"b5b7fb76e0a44a";
 static NSString *const kTTPlacementID = @"b5b7fb88a6a770";
+static NSString *const kYeahmobiPlacementID = @"b5bc9402c3b676";
+static NSString *const kAppnextPlacementID = @"b5bc940420ec67";
+static NSString *const kOnewayPlacementID = @"b5bc9402156211";
 #endif
 @implementation AMRewardedVideoVideoViewController
 -(instancetype) initWithPlacementName:(NSString*)name {
@@ -91,7 +98,10 @@ static NSString *const kTTPlacementID = @"b5b7fb88a6a770";
                           kAdcolonyPlacementName:kAdcolonyRVPlacementID,
                           kUnityAdsPlacementName:kUnityAdsPlacementID,
                           kFlurryPlacement:kFlurryPlacementID,
-                          kTTPlacementName:kTTPlacementID
+                          kTTPlacementName:kTTPlacementID,
+                          kOnewayPlacementName:kOnewayPlacementID,
+                          kYeahmobiPlacement:kYeahmobiPlacementID,
+                          kAppnextPlacement:kAppnextPlacementID
                           };
     }
     return self;
@@ -158,7 +168,7 @@ static NSString *const kTTPlacementID = @"b5b7fb88a6a770";
     _failureTipsLabel.hidden = YES;
     _reloadADButton.enabled = NO;
     [self.view addSubview:_loadingView];
-    [[AMAdManager sharedManager] loadADWithPlacementID:_placementIDs[_name] customData:nil delegate:self];
+    [[AMAdManager sharedManager] loadADWithPlacementID:_placementIDs[_name] extra:@{kAMAdLoadingExtraUserIDKey:@"test_user_id", kAMAdLoadingExtraCustomData:@"test_custom_data"} customData:nil delegate:self];
 }
 
 -(void) showAD {

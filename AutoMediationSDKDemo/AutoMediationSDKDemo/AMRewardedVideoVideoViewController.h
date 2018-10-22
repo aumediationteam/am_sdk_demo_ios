@@ -23,6 +23,9 @@ extern NSString *const kAdcolonyPlacementName;
 extern NSString *const kUnityAdsPlacementName;
 extern NSString *const kAllPlacementName;
 extern NSString *const kTTPlacementName;
+extern NSString *const kOnewayPlacementName;
+extern NSString *const kYeahmobiPlacement;
+extern NSString *const kAppnextPlacement;
 @interface AMRewardedVideoVideoViewController : UIViewController
 -(instancetype) initWithPlacementName:(NSString*)name;
 @end

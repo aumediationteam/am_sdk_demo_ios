@@ -36,6 +36,7 @@ extern NSString *const kNetworkNameAdmob;
 extern NSString *const kNetworkNameFlurry;
 extern NSString *const kNetworkNameMintegral;
 extern NSString *const kNetworkNameApplovin;
+extern NSString *const kNetworkNameGDT;
 extern NSString *const kNetworkNameMopub;
 extern NSString *const kNetworkNameTapjoy;
 extern NSString *const kNetworkNameChartboost;
@@ -44,6 +45,9 @@ extern NSString *const kNetworkNameVungle;
 extern NSString *const kNetworkNameAdColony;
 extern NSString *const kNetworkNameUnityAds;
 extern NSString *const kNetworkNameTT;
+extern NSString *const kNetworkNameOneway;
+extern NSString *const kNetworkNameAppnext;
+extern NSString *const kNetworkNameYeahmobi;
 
 extern NSString *const kInmobiGDPRStringKey;
 extern NSString *const kInmobiConsentStringKey;
@@ -62,6 +66,9 @@ extern NSString *const kFlurryConsentConsentStringKey;
 
 extern NSString *const kAdColonyGDPRConsiderationFlagKey;
 extern NSString *const kAdColonyGDPRConsentStringKey;
+
+extern NSString *const kYeahmobiGDPRConsentValueKey;
+extern NSString *const kYeahmobiGDPRConsentTypeKey;
 
 typedef NS_ENUM(NSInteger, AMDataConsentSet) {
     //Let it default to forbidden if not set

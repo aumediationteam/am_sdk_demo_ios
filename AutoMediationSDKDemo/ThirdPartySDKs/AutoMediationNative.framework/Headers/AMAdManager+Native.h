@@ -7,6 +7,14 @@
 //
 
 #import <AutoMediationSDK/AutoMediationSDK.h>
+
+//Currently only GDT supports these two keys.
+extern NSString *const kExtraInfoNativeAdSizeKey;//the value has to be an NSValue wrapped CGSize object.
+extern NSString *const kExtraInfoNativeAdTypeKey;//The value is requried for GDT native ad and has to be an NSNumber warpped AMGDTNativeAdType(NSInteger); Pass @(AMGDTNativeAdTypeTemplate)(@1) for template ads and @(AMGDTNativeAdTypeSelfRendering)(@2) for self rendering ads.
+typedef NS_ENUM(NSInteger, AMGDTNativeAdType) {
+    AMGDTNativeAdTypeTemplate = 1,
+    AMGDTNativeAdTypeSelfRendering = 2
+};
 @class AMNativeADView;
 @class AMNativeADConfiguration;
 @interface AMAdManager (Native)
