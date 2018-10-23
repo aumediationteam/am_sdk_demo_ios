@@ -1,0 +1,6 @@
+framework module AutoMediationFlurryBannerAdapter {
+  umbrella header "AutoMediationFlurryBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

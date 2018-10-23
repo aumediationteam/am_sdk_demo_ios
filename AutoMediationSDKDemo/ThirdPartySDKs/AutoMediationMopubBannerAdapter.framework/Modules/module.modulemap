@@ -1,0 +1,6 @@
+framework module AutoMediationMopubBannerAdapter {
+  umbrella header "AutoMediationMopubBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AutoMediationBanner {
+  umbrella header "AutoMediationBanner.h"
+
+  export *
+  module * { export * }
+}

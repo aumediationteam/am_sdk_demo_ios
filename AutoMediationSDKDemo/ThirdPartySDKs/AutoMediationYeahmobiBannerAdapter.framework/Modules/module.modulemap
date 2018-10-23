@@ -1,0 +1,6 @@
+framework module AutoMediationYeahmobiBannerAdapter {
+  umbrella header "AutoMediationYeahmobiBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

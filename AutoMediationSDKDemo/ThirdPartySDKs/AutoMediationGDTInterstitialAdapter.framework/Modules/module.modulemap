@@ -1,0 +1,6 @@
+framework module AutoMediationGDTInterstitialAdapter {
+  umbrella header "AutoMediationGDTInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

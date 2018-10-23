@@ -1,0 +1,6 @@
+framework module AutoMediationFacebookBannerAdapter {
+  umbrella header "AutoMediationFacebookBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

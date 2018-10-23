@@ -1,0 +1,6 @@
+framework module AutoMediationGDTBannerAdapter {
+  umbrella header "AutoMediationGDTBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

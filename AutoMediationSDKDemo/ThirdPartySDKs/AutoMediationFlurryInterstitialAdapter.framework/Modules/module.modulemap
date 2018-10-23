@@ -1,0 +1,6 @@
+framework module AutoMediationFlurryInterstitialAdapter {
+  umbrella header "AutoMediationFlurryInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

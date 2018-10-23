@@ -1,0 +1,6 @@
+framework module AutoMediationGDTNativeAdapter {
+  umbrella header "AutoMediationGDTNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

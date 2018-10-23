@@ -1,0 +1,6 @@
+framework module AutoMediationFacebookInterstitialAdapter {
+  umbrella header "AutoMediationFacebookInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AutoMediationTTBannerAdapter {
+  umbrella header "AutoMediationTTBannerAdapter.h"
+
+  export *
+  module * { export * }
+}

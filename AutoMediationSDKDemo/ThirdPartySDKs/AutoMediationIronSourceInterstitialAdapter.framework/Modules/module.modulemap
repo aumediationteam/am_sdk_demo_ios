@@ -1,0 +1,6 @@
+framework module AutoMediationIronSourceInterstitialAdapter {
+  umbrella header "AutoMediationIronSourceInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

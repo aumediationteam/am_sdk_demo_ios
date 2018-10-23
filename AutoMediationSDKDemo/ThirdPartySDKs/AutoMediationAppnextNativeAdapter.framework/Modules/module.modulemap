@@ -1,0 +1,6 @@
+framework module AutoMediationAppnextNativeAdapter {
+  umbrella header "AutoMediationAppnextNativeAdapter.h"
+
+  export *
+  module * { export * }
+}

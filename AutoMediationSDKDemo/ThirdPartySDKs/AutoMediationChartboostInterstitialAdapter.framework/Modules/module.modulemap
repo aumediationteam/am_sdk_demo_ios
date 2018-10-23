@@ -1,0 +1,6 @@
+framework module AutoMediationChartboostInterstitialAdapter {
+  umbrella header "AutoMediationChartboostInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AutoMediationYeahmobiInterstitialAdapter {
+  umbrella header "AutoMediationYeahmobiInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AutoMediationTapjoyInterstitialAdapter {
+  umbrella header "AutoMediationTapjoyInterstitialAdapter.h"
+
+  export *
+  module * { export * }
+}
