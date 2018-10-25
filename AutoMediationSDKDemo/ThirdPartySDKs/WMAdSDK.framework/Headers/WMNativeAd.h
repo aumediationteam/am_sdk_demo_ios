@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "WMAdSlot.h"
 #import "WMMaterialMeta.h"
+#import "WMVideoAdView.h"
 
 @protocol WMNativeAdDelegate;
 
@@ -17,12 +18,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 抽象的广告位，包含广告数据加载， 展示，响应
+ 抽象的广告位，包含广告数据加载、响应回调
+ 目前Native支持原生广告，原生广告包括信息流（多条广告，图文+视频形式）、一般原生广告（单条广告，图文+视频形式），原生banner、原生插屏
+ 同时支持插屏、Banner、开屏、激励视频、全屏视频
  */
 @interface WMNativeAd : NSObject
 
 /**
- 广告位的描述说明， 目前Native广告支持信息流 插屏 Banner广告位 开屏广告位
+ 广告位的描述说明
  */
 @property (nonatomic, strong, readwrite, nullable) WMAdSlot *adslot;
 
@@ -37,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, readwrite, nullable) id<WMNativeAdDelegate> delegate;
 
 /**
- 广告位展示落地页ViewController的rootviewController，必传参数
+ 广告位展示落地页通过rootviewController进行跳转，必传参数，跳转方式分为pushViewController和presentViewController两种方式
  */
 @property (nonatomic, weak, readwrite) UIViewController *rootViewController;
 
@@ -48,23 +51,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (instancetype)initWithSlot:(WMAdSlot *)slot;
 
-// 广告类与view相关联绑定，注册具体事件，比如跳转页面、打电话、下载，行为由SDK控制，不建议使用，比如有可能注册电话事件但实际没有电话信息
-- (void)registerViewForInteraction:(UIView *)view
-               withInteractionType:(WMInteractionType)interactionType;
-
 /**
- 定义原生广告视图中可以点击的 视图区域，行为由SDK控制
- @param view 原生广告的视图，完整可点击区域
+ 定义原生广告视图中，注册可点击视图
+ @param containerView 注册原生广告的容器视图，必传参数，交互类型在平台配置，包括查看视频详情、打电话、落地页、下载、外部浏览器打开等
+ @param clickableViews 注册创意按钮，可选参数，交互类型在平台配置，包括电话、落地页、下载、外部浏览器打开、短信、email、视频详情页等
+ @note 同一nativeAd对象请勿重复注册同一视图
  */
-- (void)registerViewForInteraction:(UIView *)view;
-
-/**
- 定义原生广告视图中可以点击的 视图区域， 减少误点概率，提升用户体验
- @param view 包含原生广告的视图
- @param clickableViews 广告视图中可以被点击的响应对象
- */
-- (void)registerViewForInteraction:(UIView *)view
-                withClickableViews:(NSArray<UIView *> *_Nullable)clickableViews;
+- (void)registerContainer:(__kindof UIView *)containerView
+       withClickableViews:(NSArray<__kindof UIView *> *_Nullable)clickableViews;
 
 /// 广告类解除和view的绑定
 - (void)unregisterView;
@@ -108,6 +102,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)nativeAdDidClick:(WMNativeAd *)nativeAd withView:(UIView *_Nullable)view;
 
+/**
+ 用户点击 dislike功能
+ @param nativeAd 被点击的 广告位
+ @param filterWords 不喜欢的原因， 可能为空
+ */
+- (void)nativeAd:(WMNativeAd *)nativeAd dislikeWithReason:(NSArray<WMDislikeWords *> *)filterWords;
 @end
 
 NS_ASSUME_NONNULL_END

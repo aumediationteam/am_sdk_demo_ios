@@ -23,10 +23,10 @@ FOUNDATION_EXPORT const unsigned char WMAdSDKVersionString[];
 #import <WMAdSDK/WMImage.h>
 #import <WMAdSDK/WMSize.h>
 #import <WMAdSDK/WMMaterialMeta.h>
-#import <WMAdSDK/WMTableViewCell.h>
+#import <WMAdSDK/WMPlayerPublicDefine.h>
 #import <WMAdSDK/WMVideoAdView.h>
 #import <WMAdSDK/WMDislikeViewController.h>
-
+#import <WMAdSDK/WMDislikeWords.h>
 #import <WMAdSDK/WMNativeAd.h>
 #import <WMAdSDK/WMNativeAdsManager.h>
 #import <WMAdSDK/WMRewardedVideoModel.h>
@@ -34,4 +34,5 @@ FOUNDATION_EXPORT const unsigned char WMAdSDKVersionString[];
 #import <WMAdSDK/WMBannerAdView.h>
 #import <WMAdSDK/WMSplashAdView.h>
 #import <WMAdSDK/WMInterstitialAd.h>
-
+#import <WMAdSDK/WMFullscreenVideoAd.h>
+#import <WMAdSDK/WMNativeAdRelatedView.h>

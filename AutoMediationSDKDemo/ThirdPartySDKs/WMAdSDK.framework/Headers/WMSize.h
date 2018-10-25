@@ -31,10 +31,10 @@ typedef NS_ENUM(NSInteger, WMProposalSize) {
 
 @interface WMSize : NSObject
 
-// 宽度
+// 宽度 像素pixel
 @property (nonatomic, assign) NSInteger width;
 
-// 高度
+// 高度 像素pixel
 @property (nonatomic, assign) NSInteger height;
 
 - (NSDictionary *)dictionaryValue;

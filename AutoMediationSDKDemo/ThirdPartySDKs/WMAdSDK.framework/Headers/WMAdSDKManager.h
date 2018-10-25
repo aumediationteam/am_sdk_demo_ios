@@ -24,10 +24,20 @@
  @param level 默认 WMAdSDKLogLevelNone
  */
 + (void)setLoglevel:(WMAdSDKLogLevel)level;
+
+/// 设置用户的性别
 + (void)setUserGender:(WMUserGender)userGender;
-+ (void)setUserAge:(NSInteger)userAge;
+
+/// 设置用户的年龄
++ (void)setUserAge:(NSUInteger)userAge;
+
+/// 设置用户的关键字，比如兴趣和爱好等等
 + (void)setUserKeywords:(NSString *)keywords;
+
+/// 设置用户的额外信息
 + (void)setUserExtData:(NSString *)data;
+
+/// 设置本app是否是付费app，默认为非付费app
 + (void)setIsPaidApp:(BOOL)isPaidApp;
 
 + (NSString *)appID;

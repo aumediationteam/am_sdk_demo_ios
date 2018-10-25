@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WMPlayer.h"
+#import "WMPlayerPublicDefine.h"
 
 @class WMMaterialMeta;
 
@@ -17,16 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
  控制网盟视频播放器
  */
 @protocol WMVideoEngine <NSObject>
-
-/**
- 开始播放
- */
-- (void)play;
-
-/**
- 暂停播放
- */
-- (void)pause;
 
 /**
  获取当前已播放时间
@@ -54,11 +44,6 @@ NS_ASSUME_NONNULL_BEGIN
  materialMeta 物料信息
  */
 @property (nonatomic, strong, readwrite, nullable) WMMaterialMeta *materialMeta;
-
-/**
- 是否是cellVideo
- */
-@property (nonatomic, assign) BOOL isCellVideo;
 
 - (instancetype)initWithMaterial:(WMMaterialMeta *)materialMeta;
 
